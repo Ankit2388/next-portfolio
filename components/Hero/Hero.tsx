@@ -17,7 +17,10 @@ export const Hero = () => {
         <div className="py-8 relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500">
           <span className="text-4xl sm:text-7xl font-bold py-8">
             &nbsp;
-            <TypeWriter text={`Ankit Prajapati`} delay={50} infinite={false} />
+            <span className="hidden sm:inline">
+              <TypeWriter text={`Ankit Prajapati`} delay={50} infinite={false} />
+            </span>
+            <span className="inline sm:hidden">Ankit Prajapati</span>
           </span>
         </div>
       </div>
