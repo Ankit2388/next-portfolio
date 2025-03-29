@@ -3,7 +3,7 @@ import { TypeWriter } from '../TypeWriter/TypeWriter';
 
 export const Hero = () => {
   return (
-    <div className="h-[50rem] w-full select-none dark:bg-black bg-black  dark:bg-grid-white/[0.2] bg-grid-white/[0.2] relative flex flex-col items-center justify-center">
+    <div className="h-[100vh] w-full select-none dark:bg-black bg-black  dark:bg-grid-white/[0.2] bg-grid-white/[0.2] relative flex flex-col items-center justify-center">
       {/* Radial gradient for the container to give a faded look */}
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 
