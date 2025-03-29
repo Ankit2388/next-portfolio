@@ -1,4 +1,5 @@
 import React from 'react';
+import { TypeWriter } from '../TypeWriter/TypeWriter';
 
 export const Hero = () => {
   return (
@@ -15,7 +16,8 @@ export const Hero = () => {
         </span>
         <div className="py-8 relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500">
           <span className="text-4xl sm:text-7xl font-bold py-8">
-            &nbsp;Ankit Prajapati
+            &nbsp;
+            <TypeWriter text={`Ankit Prajapati`} delay={50} infinite={false} />
           </span>
         </div>
       </div>
