@@ -1,5 +1,6 @@
 import React from 'react';
 import { TypeWriter } from '../TypeWriter/TypeWriter';
+import { TypeWriterEffect, TypeWriterEffectSmooth } from '../TypeWriterEffect/TypeWriterEffect';
 
 export const Hero = () => {
   return (
@@ -18,7 +19,7 @@ export const Hero = () => {
           <span className="text-3xl sm:text-5xl md:text-7xl font-bold">
             &nbsp;
             <span className="hidden sm:inline">
-              <TypeWriter text={`Ankit Prajapati`} delay={50} infinite={false} />
+              <TypeWriterEffectSmooth words={[{text:`Ankit Prajapati`}]} className='inline-flex' />
             </span>
             <span className="inline sm:hidden">Ankit Prajapati</span>
           </span>
